@@ -71,7 +71,7 @@ const (
 	RewardCalculatorAddress                 = "0x0DEADC0DE0000000000000000000000000000000"
 
 	MaximumChurnPercentage = 20 // 20% of the validator set can be churned per churn period
-	ChurnPeriodSeconds     = 0  // no churn period
+	ChurnPeriodSeconds     = 86400  // 24 hours
 
 	DefaultPoSMinimumStakeAmount     = 1
 	DefaultPoSMaximumStakeAmount     = 1000
